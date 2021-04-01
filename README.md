@@ -30,4 +30,5 @@ public static JQueryDataTablesResponse<IDTO> TransaccionesGiros(JQueryDataTables
 
 ## Notas
 
-El código de Ejemplo es de una página de ASP
+El código de Ejemplo es de una página de ASP. La clase ```GiroDAO``` es DAO (ver patrón de diseño [Data Access Object pattern](https://es.wikipedia.org/wiki/Objeto_de_acceso_a_datos) ), es la clase responsable de interacturar con la BD, con la tabla giro. Devuelve un ```GiroDTO```, que a su vez implementa la interfaz ```IDTO```.
+Recomiendo comenzar revisando el archivo **JQueryDataTablesServerSide.RTF** , el cual contiene el diseño del proyecto
